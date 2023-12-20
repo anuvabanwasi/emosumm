@@ -6,3 +6,4 @@ The goals of this paper are: (1) can we use LLMs like GPT-4/Chat GPT to generate
 2. The main code for loading the data, tokenizing the data, and training BART on this data is in emotion_summarization.py.
 3. The BART_and_T5_TrainingModel.ipynb is the notebook that loads the data and then calls emotion_summarization.py to generate the results.
    Note: The train_bart_model.ipynb is the same as the BART_and_T5_TrainingModel.ipynb but just without the T5 results.
+   The BART and T5 results are also included in the result folder. The BART_and_T5_TrainingModel.ipynb loads the results from this folder and shows the averages for ROUGE-L and BERT-score for each emotion. 
